@@ -2,7 +2,7 @@
 
 This is a simple TODO application written in Swift. It's my first attempt at building an app in Swift, having previously worked with Flutter.
 
-This app allows you to:
+This app used Firebase for secure user authentication and storing data allowing you to:
 
 Add Notes: Capture and store information within the app.
 View Profile: Manage your user profile information.
