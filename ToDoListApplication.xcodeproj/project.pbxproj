@@ -15,11 +15,13 @@
 		1271C8B52BE7894500612113 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1271C8B42BE7894500612113 /* FirebaseAuth */; };
 		1271C8B72BE7895300612113 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1271C8B62BE7895300612113 /* FirebaseFirestore */; };
 		1271C8B92BE7895E00612113 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1271C8B82BE7895E00612113 /* FirebaseFirestoreSwift */; };
+		12AE52372BE7D9480018AA1C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE52362BE7D9480018AA1C /* HeaderView.swift */; };
+		12AE52392BE926760018AA1C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE52382BE926760018AA1C /* RegisterView.swift */; };
+		12AE523B2BE937ED0018AA1C /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE523A2BE937ED0018AA1C /* TLButton.swift */; };
 		12C3671F2BE78EC20062F5E5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C3671E2BE78EC20062F5E5 /* ProfileView.swift */; };
 		12C367212BE78ED90062F5E5 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C367202BE78ED90062F5E5 /* ToDoListView.swift */; };
 		12C367232BE78EEB0062F5E5 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C367222BE78EEB0062F5E5 /* NewItemView.swift */; };
 		12C367252BE78EF90062F5E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C367242BE78EF90062F5E5 /* LoginView.swift */; };
-		12C367292BE78F830062F5E5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C367282BE78F830062F5E5 /* RegisterView.swift */; };
 		12C3672B2BE78FC10062F5E5 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C3672A2BE78FC00062F5E5 /* ToDoListItemView.swift */; };
 		12C3672D2BE7900C0062F5E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C3672C2BE7900C0062F5E5 /* User.swift */; };
 		12C3672F2BE790190062F5E5 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C3672E2BE790190062F5E5 /* ToDoListItem.swift */; };
@@ -39,11 +41,13 @@
 		1271C8A62BE781EA00612113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1271C8A92BE781EA00612113 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1271C8B12BE7867000612113 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12AE52362BE7D9480018AA1C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		12AE52382BE926760018AA1C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		12AE523A2BE937ED0018AA1C /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		12C3671E2BE78EC20062F5E5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		12C367202BE78ED90062F5E5 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		12C367222BE78EEB0062F5E5 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 		12C367242BE78EF90062F5E5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		12C367282BE78F830062F5E5 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		12C3672A2BE78FC00062F5E5 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		12C3672C2BE7900C0062F5E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		12C3672E2BE790190062F5E5 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
@@ -136,8 +140,10 @@
 				12C367202BE78ED90062F5E5 /* ToDoListView.swift */,
 				12C367222BE78EEB0062F5E5 /* NewItemView.swift */,
 				12C367242BE78EF90062F5E5 /* LoginView.swift */,
-				12C367282BE78F830062F5E5 /* RegisterView.swift */,
 				12C3672A2BE78FC00062F5E5 /* ToDoListItemView.swift */,
+				12AE52362BE7D9480018AA1C /* HeaderView.swift */,
+				12AE52382BE926760018AA1C /* RegisterView.swift */,
+				12AE523A2BE937ED0018AA1C /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,14 +247,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				12C367252BE78EF90062F5E5 /* LoginView.swift in Sources */,
+				12AE52372BE7D9480018AA1C /* HeaderView.swift in Sources */,
 				1271C8A52BE781E800612113 /* MainView.swift in Sources */,
 				12C3673D2BE790C50062F5E5 /* RegisterViewViewModel.swift in Sources */,
 				12C367312BE790580062F5E5 /* MainViewViewModel.swift in Sources */,
 				12C3671F2BE78EC20062F5E5 /* ProfileView.swift in Sources */,
-				12C367292BE78F830062F5E5 /* RegisterView.swift in Sources */,
 				12C367332BE790650062F5E5 /* ProfileViewViewModel.swift in Sources */,
+				12AE523B2BE937ED0018AA1C /* TLButton.swift in Sources */,
 				12C367212BE78ED90062F5E5 /* ToDoListView.swift in Sources */,
 				12C3672D2BE7900C0062F5E5 /* User.swift in Sources */,
+				12AE52392BE926760018AA1C /* RegisterView.swift in Sources */,
 				12C3672B2BE78FC10062F5E5 /* ToDoListItemView.swift in Sources */,
 				12C367352BE790740062F5E5 /* ToDoListViewViewModel.swift in Sources */,
 				12C367392BE790940062F5E5 /* LoginViewViewModel.swift in Sources */,
