@@ -9,10 +9,7 @@ import SwiftUI
 
 struct RegisterView: View {
     
-    
-    @State var name = ""
-    @State var email = ""
-    @State var password = ""
+    @StateObject var viewModal = RegisterViewViewModel()
     
     
     var body: some View {
@@ -25,16 +22,16 @@ struct RegisterView: View {
                 
                 //Register Form
                 Form{
-                    TextField("Full Name", text: $name)
+                    TextField("Full Name", text: $viewModal.name)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocorrectionDisabled()
                     
-                    TextField("Email Address", text: $email)
+                    TextField("Email Address", text: $viewModal.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocorrectionDisabled()
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     
-                    SecureField("Password", text: $password)
+                    SecureField("Password", text: $viewModal.password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
                     TLButton(
@@ -42,7 +39,8 @@ struct RegisterView: View {
                              background: .green
                     ) {
                         //Attempt registration
-                        print("Button is clicked")
+                        
+                        viewModal.register()
                     }
                     .padding()
                 }
